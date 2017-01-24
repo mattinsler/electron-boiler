@@ -1,0 +1,39 @@
+{
+  "name": "electron-boils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "clean": "rm -rf dist build",
+    "build": "./build.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "6.22.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-loader": "6.2.10",
+    "babel-plugin-transform-runtime": "6.22.0",
+    "babel-preset-es2015": "6.18.0",
+    "babel-preset-react": "6.16.0",
+    "babel-preset-stage-0": "6.16.0",
+    "css-loader": "0.26.1",
+    "electron-packager": "8.5.1",
+    "electron-prebuilt": "1.4.13",
+    "express": "4.14.0",
+    "file-loader": "0.9.0",
+    "node-sass": "4.3.0",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "sass-loader": "4.1.1",
+    "style-loader": "0.13.1",
+    "url-loader": "0.5.7",
+    "webpack": "2.2.0-rc.4",
+    "webpack-dev-middleware": "1.9.0",
+    "webpack-hot-middleware": "2.15.0"
+  }
+}
